@@ -1,0 +1,20 @@
+.controlPanel{
+    margin: 30px 0;
+}
+
+.changePage {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.changePage:hover {
+    background-color: steelblue;
+}

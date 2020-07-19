@@ -1,0 +1,56 @@
+.inputContent {
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 52px;
+    padding: 0px 18px;
+}
+
+
+
+
+.inputBox {
+    box-sizing: content-box;
+    border: none;
+    display: block;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background: none;
+    outline: none;
+    caret-color: #ff373c;
+    font-size: 18px;
+    width: 100%;
+}
+
+.searchIcon {
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24'%3E%3Cdefs%3E%3Cpath id='a' d='M0 0h24v24H0z'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cg stroke='%23333' stroke-linecap='round' stroke-width='1.5' mask='url(%23b)'%3E%3Cpath d='M18.385 17.178l3.535 3.535'/%3E%3C/g%3E%3Ccircle cx='12' cy='11.5' r='8.5' stroke='%23333' stroke-width='1.5' mask='url(%23b)'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.keywordList {
+    margin-top: 20px;
+    color: darkgray;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.keyword {
+    margin: 6px 0;
+}
+
+.keyword:hover{
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}

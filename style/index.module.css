@@ -1,0 +1,23 @@
+.page {
+    height: 60vh;
+    width: 100%;
+    padding-top: 20vh;
+}
+
+.logoContainer {
+    margin: 0 auto 1.5%;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    border-radius: 15px;
+    width: 20%;
+    height: auto;
+}
+
+.searchBoxContainer {
+    width: 50%;
+    margin: auto;
+}
