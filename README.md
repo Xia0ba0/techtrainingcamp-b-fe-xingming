@@ -25,8 +25,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 > 函数式组件
 ### /pages
 > 可访问的页面，路由直接映射为js文件
-### style
+### /style
 > 全局样式，以及页面样式
-### public
+### /public
 > 静态文件
 
